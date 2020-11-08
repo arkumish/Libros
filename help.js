@@ -45,5 +45,5 @@ const sendmail = service => {
       console.log(response);
     });
   }
-  setTimeout(() => {window.location.replace("/index.html");}, 4000);
+  setTimeout(() => {window.location.replace(home);}, 4000);
 };
