@@ -5,7 +5,7 @@ window.handsfree = new window.Handsfree({})
 Handsfree.disable('head.pointer')
 Handsfree.disable('head.vertScroll')
 
-var buttonOne = 0, buttonTwo = 0 , buttonThree = 0 , buttonFour = 0, threshold = 50 ;
+var buttonOne = 0, buttonTwo = 0 , buttonThree = 0 , buttonFour = 0, threshold = 25 ;
 
 var buttonFive=0 , buttonSix = 0 ;
 

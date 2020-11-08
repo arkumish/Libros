@@ -18,8 +18,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="aside-bar.css">
     
- 
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/handsfree@6.1.1/dist/handsfree.css"
+  />
+  <script src="https://unpkg.com/handsfree@6.1.1/dist/handsfree.js"></script>
+
     <script src="index.js" defer></script>
+    <script type="text/javascript" src="faceui/demo.js" defer></script>
     <style>
         .cover{
             display: flex;
@@ -46,24 +52,25 @@
     </style>
   </head>  
   <body>
-    <div class="aside-bar" onclick="location.href = 'index.html';">
-      <p>HOME</p>
+    <div id = "buttonFive"class="aside-bar" onclick="location.href = 'index.html';">
+      <p>HOME (POUT)</p>
     </div>
 
 <div class="cover">
-<div class="cover-item item-1 zone-1" onclick="location.href = 'exp-board.html';">
+<div id = "buttonOne" class="cover-item item-1 zone-1" onclick="location.href = 'exp-board.html';">
     <p class="info-text">
       KEYBOARD TALK
-        </p>
+     </p>
+
+    <p class="lower-part"><br>Left Smile</p>
 </div>
+
 <div class="cover-item item-2 zone-2" >
-    <button class="info-text book" onclick="location.href = 'book1.html';">
+
+    <button id = "buttonTwo"class="info-text book" onclick="location.href = 'book1.html';">
       BOOK : Be Happy
-    </button>
-    <button class="info-text book" onclick="location.href = 'book2.html';">
-       
-  BOOK : The life of Jungle
-    </button>    
+    </button>  
+    <p class="lower-part"><br>Right Smile</p>
 </div>
 </div>
 
@@ -114,6 +121,15 @@
       </div> -->
     </div>
   </div> 
+
+      <script>
+    // Create a new instance. Use one instance for each camera
+    const handsfree = new Handsfree({})
+
+    handsfree.start()
+    handsfree.disable('head.pointer')
+    handsfree.disable('head.vertScroll')
+  </script>
 
   <script>
 
