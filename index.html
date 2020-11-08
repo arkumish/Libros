@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+
+        <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/handsfree@6.1.1/dist/handsfree.css"
+  />
+  <script src="https://unpkg.com/handsfree@6.1.1/dist/handsfree.js"></script>
+
+<link rel="stylesheet" href="aside-bar.css">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="index.js" defer></script>
+    <script type="text/javascript" src="faceui/demo.js" defer></script>
+
+
+  </head>  
+  <body>
+    <div class="aside-bar" onclick="location.href = 'index.html';">
+      <p>HOME</p>
+    </div>
+    <div class="line">
+  <div id ="buttonOne" class="col-md-6 quad zone-1" onclick="location.href = 'Entertainment.html';">
+    <p class="info-text">
+    🎭Entertainment
+    <p class="lower-part">Give left smile</p>
+    </p>
+   
+  </div>
+    <div id= "buttonTwo" class="col-md-6 quad zone-2" onclick="location.href = 'talk-read.html';"><p class="info-text">
+    📰TALK & READ
+    </p></div>
+
+    <div id = "buttonfour" class="col-md-6 quad zone-3"  onclick="location.href = 'game.html';"><p class="info-text">
+    🎮Games
+    </p></div>
+    <div id = "buttonThree"class="col-md-6 quad zone-4"  onclick="location.href = 'help.html';" ><p class="info-text">
+    💁Help
+    </p></div>
+</div>
+
+    <script>
+    // Create a new instance. Use one instance for each camera
+    const handsfree = new Handsfree({})
+
+    handsfree.start()
+    handsfree.disable('head.pointer')
+    handsfree.disable('head.vertScroll')
+  </script>
+
+  </body>
+</html>
