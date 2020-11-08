@@ -25,8 +25,8 @@ const sendmail = service => {
     }
 
     const data = JSON.stringify({
-      mailid: "shivampathak339@gmail.com",
-      subject: "Notification from Wecode",
+      mailid: "shaileshkumar2604@gmail.com",
+      subject: "Notification from Libros:WeCode",
       message: msgBody
     });
 
