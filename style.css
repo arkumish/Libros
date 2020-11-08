@@ -66,9 +66,8 @@ background:linear-gradient(
 -o-background-size: cover;
 background-size: cover;  
 
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
+
+background-size: 500px 400px;
 }
 
 
@@ -79,6 +78,8 @@ background:linear-gradient( rgb(0 52 255 / 45%), rgb(0 64 255 / 60%) ),url('imag
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;  
+
+background-size: 500px 400px;
 }
 
 
@@ -89,6 +90,8 @@ background:linear-gradient( rgb(183 0 255 / 44%), rgb(148 0 255 / 64%) ),url('im
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;  
+
+background-size: 500px 400px;
 }
 .zone-4{
 background:linear-gradient( rgb(0 182 255 / 53%), rgb(0 158 255 / 62%) ),url('images/mouth-open.jpeg');
@@ -97,6 +100,8 @@ background:linear-gradient( rgb(0 182 255 / 53%), rgb(0 158 255 / 62%) ),url('im
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;  
+
+background-size: 500px 400px;
 }
 
 .info-text{
