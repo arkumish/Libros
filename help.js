@@ -1,7 +1,7 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
 
-const home = "assistance-ui/index.html";
+const home = "https://arkumish.github.io/Libros/";
 
 const sendmail = service => {
   let msgBody;
